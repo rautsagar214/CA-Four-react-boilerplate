@@ -1,4 +1,4 @@
-const questions = [
+const Questions = [
   {
     text: "What is ReactJS?",
     options: [
@@ -48,4 +48,4 @@ const questions = [
   },
 ];
 
-export default questions;
+export default Questions;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import questions from "./questions";
+import Questions from "./Questions";
 import Result from "./components/Result";
 import QuestionBox from "./components/QuestionBox";
 
@@ -8,10 +8,20 @@ import QuestionBox from "./components/QuestionBox";
 
 function App() {
 
-  return (
-    <div>
+const sagar =(()=>{
+  console.log(Questions.text[0])
+})
+
+  
       
+  return (
+    <>
+     <div>
+
+    
+    <QuestionBox/>
     </div>
+    </>
   );
 }
 
