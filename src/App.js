@@ -18,7 +18,7 @@ const sagar =(()=>{
     <>
      <div>
 
-    
+    <Result/>
     <QuestionBox/>
     </div>
     </>
