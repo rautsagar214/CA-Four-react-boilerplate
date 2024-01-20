@@ -3,9 +3,8 @@
 import React    from 'react'
 import { useState } from 'react'
 import './Questionbox.css'
-import Questions from '../Questions'
+import Questions from '../Questions.js'
 
-import Result from './Result'
 export default function QuestionBox({setCurrentPage}) {
 //here we   use the useState hook to change the state .
 

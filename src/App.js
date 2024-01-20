@@ -1,6 +1,5 @@
 import React, {useState } from "react";
 import "./App.css";
-import Questions from "./Questions";
 import Result from "./components/Result";
 import QuestionBox from "./components/QuestionBox";
 
